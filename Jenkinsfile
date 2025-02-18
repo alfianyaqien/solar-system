@@ -12,6 +12,7 @@ pipeline {
         sh 'npm -v'
       }
     }
-    
+
   }
+  
 }
