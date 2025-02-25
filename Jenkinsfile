@@ -6,7 +6,7 @@ pipeline {
   }
 
   environment {
-    MONGO_URI = "mongodb://127.0.0.1:27017/superData"
+    MONGO_URI = "mongodb://127.0.0.1:27017/admin"
   }
 
   stages {
