@@ -6,7 +6,7 @@ pipeline {
   }
 
   environment {
-    MONGO_URI = "mongodb://localhost:27017/admin"
+    MONGO_URI = "mongodb://localhost:27017/admin?authSource=admin"
   }
 
   stages {
